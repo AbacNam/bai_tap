@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <h1>Guest Reservation</h1>
+        <label for="txt">arrival date"</label>
+        <input type="text" name="txt" value="" size="20" maxlength="30"><br>
+        <label for="Night">Night</label>
+        <input type="text" name="Night" value="" size="20" maxlength="30"><br>
+        <select name="Adults">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <select name="Children">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+        <fieldset>
+        <legend>Preferences</legend>
+        Radio Button Group : <br>
+            Room type:
+            <input type="radio" name=“gt" value="standard" >standard
+            <input type="radio" name=“gt" value="Business" >Business
+            <input type="radio" name=“gt" value="suite" ><br>suite
+            bed type:
+            <input type="radio" name=“gt1" value="king" >king
+            <input type="radio" name=“gt1" value="double double" >double double<br>
+            <input type="radio" name=“gt0" value="smoking">smoking
+        </fieldset>
+        <fieldset>
+        <legend>Contact information</legend>
+            Radio Button Group : <br>
+            <label for="txt">Name:</label>
+            <input type="text" name="txt" value="" size="20" maxlength="30"><br>
+            <label for="Email">Email:</label>
+            <input type="text" name="Email  " value="" size="20" maxlength="30"><br>
+            <label for="phone">phone:</label>
+            <input type="text" name="phone  " value="" size="20" maxlength="30"><br>
+        </fieldset>
+        <input type="submit" name="send" value="Submit Reservation">
+    </body>
+</html>
